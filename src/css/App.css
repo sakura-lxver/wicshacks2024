@@ -49,8 +49,8 @@
 
 .bubble {
   position: absolute; /* Position the bubble absolutely */
-  bottom: 20px; /* Adjust the distance from the bottom */
-  left: 50%; /* Position the bubble horizontally in the center */
+  bottom: 700px; /* Adjust the distance from the bottom */
+  left: 87%; /* Position the bubble horizontally in the center */
   transform: translateX(-50%); /* Center the bubble horizontally */
   width: 200px;
   height: 200px;
