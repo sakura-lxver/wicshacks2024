@@ -35,10 +35,6 @@
   align-items: center;
   text-align: center;
 }
-
-.background-content {
-  color: black;
-}
 .scroll-down-btn-container {
   position: absolute;
   bottom: 20px;
