@@ -1,8 +1,9 @@
-import Navbar from './components/Navbar';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 function Background() {
     return (
       <>
-        <Navbar/>
+      <Navbar/>
         <div className="background">
           <div className="background-content">
             <h1>Jeonghan's wife</h1>
