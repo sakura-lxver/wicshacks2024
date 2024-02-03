@@ -24,3 +24,19 @@
   color: white;
 }
 
+.background {
+  background-image: url("../../public/jeonghan.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background-content {
+  color: white;
+}
+
+

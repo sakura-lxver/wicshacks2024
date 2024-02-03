@@ -1,11 +1,21 @@
 import logo from './logo.svg';
 import './css/App.css'
 import Navbar from './components/Navbar';
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Background from './Background.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Background />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+        
+    // <div className="App">
+    //  <header className="App-header">
+      /*  {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,12 +26,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> */}
-        <Navbar />
-        <p>Hello</p>
-      </header>
-    </div>
-  );
-}
+        </a> */ //}
+      //  <Navbar />
+      //  <p>Hello</p>
+    //  </header>
+   // </div>
 
 export default App;
