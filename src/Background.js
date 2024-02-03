@@ -17,8 +17,13 @@ function Background() {
           <div className="background-content">
             <h1>Jeonghan's wife</h1>
             <h3>Larissa Franco is the wife of Yoon Jeonghan</h3>
+           
             <div className="scroll-down-btn-container">
 
+            </div>
+            <br /> 
+            <div className="bubble">
+              <p>This is a circular bubble with text</p>
             </div>
           </div>
         </div>

@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .background-content {
@@ -44,6 +45,26 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.bubble {
+  position: absolute; /* Position the bubble absolutely */
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%; /* Position the bubble horizontally in the center */
+  transform: translateX(-50%); /* Center the bubble horizontally */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bubble p {
+  margin: 0;
+  padding: 20px; /* Adjust the padding as needed */
 }
 
 
