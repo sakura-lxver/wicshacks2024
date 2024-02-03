@@ -16,9 +16,7 @@ function Background() {
             <h1>Jeonghan's wife</h1>
             <h3>Larissa Franco is the wife of Yoon Jeonghan</h3>
             <div className="scroll-down-btn-container">
-              <button className="scroll-down-btn" onClick={scrollDown}>
-                Scroll Down
-              </button>
+
             </div>
           </div>
         </div>
