@@ -24,8 +24,9 @@
   color: white;
 }
 
-.background {
-  background-image: url("../../public/jeonghan.jpg");
+.app-background {
+  /* background-image: url("../../public/jeonghan.jpg"); */
+  background-color: #efd4b4;
   background-size: cover;
   background-position: center;
   height: 100vh;

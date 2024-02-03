@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
+import './css/App.css'
 function Background() {
     // Function to scroll down
     const scrollDown = () => {
@@ -12,7 +13,7 @@ function Background() {
     return (
       <>
       <Navbar/>
-        <div className="background">
+        <div className="app-background">
           <div className="background-content">
             <h1>Jeonghan's wife</h1>
             <h3>Larissa Franco is the wife of Yoon Jeonghan</h3>

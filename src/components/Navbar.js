@@ -3,7 +3,7 @@ import React from 'react';
 function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand" href="#">PharmAssist</a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
@@ -14,6 +14,11 @@ function Navbar(){
                     <li className="nav-item">
                         <a className="nav-link" href="#">
                             Features
+                         </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="link-extra" href="jeonghan" style={{color: 'white'}}>
+                            Jeonghan
                          </a>
                     </li>
                 </ul>

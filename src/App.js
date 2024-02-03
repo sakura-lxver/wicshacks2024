@@ -1,11 +1,13 @@
 import './css/App.css'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Background from './Background.js'
+import Jeonghan from './components/Jeonghan.js'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Background />} />
+        <Route path="/jeonghan" element={<Jeonghan />} />
       </Routes>
     </BrowserRouter>
   );
