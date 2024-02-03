@@ -25,11 +25,11 @@
 }
 
 .app-background {
-  /* background-image: url("../../public/jeonghan.jpg"); */
+  background-image: url("../../public/Pass me my happy pills.gif");
   background-color: #efd4b4;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
