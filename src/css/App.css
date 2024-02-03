@@ -28,8 +28,8 @@
   background-image: url("../../public/Pass me my happy pills.gif");
   background-color: #efd4b4;
   background-size: cover;
-  background-position: center;
-  height: 85vh;
+  background-position: fixed;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .background-content {
-  color: white;
+  color: black;
 }
 .scroll-down-btn-container {
   position: absolute;
