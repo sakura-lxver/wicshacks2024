@@ -13,3 +13,13 @@
     display: flex;
     flex-wrap: nowrap;
   }
+
+  .fixed-image {
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
+    z-index: 0; /* Set a high z-index to ensure it's above other elements */
+  }
+  .background-content{
+    z-index: 1; 
+  }
