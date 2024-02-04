@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from 'react-bootstrap/Card';
 import './css/Home.css'
 import { CardGroup } from "react-bootstrap";
+import cutiepills from './Pass me my happy pills.gif';
 function Background() {
     // Function to scroll down
     const scrollDown = () => {
@@ -14,9 +15,11 @@ function Background() {
     return (
       <>
         <div className="home-background">
-          <div className="background-content">
+          <div>
             <h1>Jeonghan's wife</h1>
-            <h3>Larissa Franco is the wife of Yoon Jeonghan</h3>
+            <div className="background-content">
+                <h3 className="background-content">Larissa Franco is the wife of Yoon Jeonghan</h3>
+            </div>
            
             <div className="scroll-down-btn-container">
 
@@ -24,6 +27,9 @@ function Background() {
             <br /> 
             <div className="bubble">
               <p>This is a circular bubble with text</p>
+            </div>
+            <div className="fixed-image">
+                <img src={cutiepills} alt="Image" style={{ width: '30vw', height: '40vh' }} />
             </div>
             <div className="scroll-down-btn-container"></div>
             <CardGroup className='rounded'>
