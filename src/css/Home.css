@@ -9,6 +9,11 @@
     text-align: center;
   }
 
+  .about-background {
+    background-color: #F1EDEB;
+    background-position: absolute;
+  }
+
   .card-style {
     margin-top: 80px;
     width: '18rem';
