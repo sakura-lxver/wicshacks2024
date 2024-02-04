@@ -4,6 +4,7 @@ import Background from './Background.js'
 import Jeonghan from './components/Jeonghan.js'
 import Soobin from './components/Soobin.js'
 import DrugSearch from './components/DrugSearch.js'
+import About from './About.js'
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/jeonghan" element={<Jeonghan />} />
         <Route path="/drugsearch" element={<DrugSearch />} />
         <Route path="/soobin" element={<Soobin/>}/>
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </BrowserRouter>
   );

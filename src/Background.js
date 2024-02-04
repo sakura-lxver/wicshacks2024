@@ -34,7 +34,7 @@ function Background() {
             <div className="fixed-image-speech">
                 <img src={speech} alt="Image" style={{ width: '17vw', height: '25vh' }} />
                 <div className="text-overlay">
-                    Click here to livechat with me!
+                    <p>Click here to livechat with me!</p>
                 </div>
                 <button class="speech-button">
                     <a href="/jeonghan">Click me!</a>

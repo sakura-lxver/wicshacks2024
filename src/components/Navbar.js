@@ -4,11 +4,11 @@ import '../css/Navbar.css'
 function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-            <a className="navbar-brand logo-text" href="/">PharmAssist</a>
+            <a className="navbar-brand logo-text" style={{marginLeft: '30px'}}href="/">PharmAssist</a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link navbar-text" href="/">
+                        <a className="nav-link navbar-text" href="about">
                             About 
                         </a>
                     </li>
