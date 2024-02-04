@@ -7,13 +7,13 @@ function Navbar(){
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">
+                        <a className="nav-link" href="home">
                             Home 
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            Features
+                        <a className="nav-link" href="drugsearch">
+                            Drug Search
                          </a>
                     </li>
                     <li className="nav-item">

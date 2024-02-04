@@ -26,7 +26,6 @@
 
 .app-background {
   background-image: url("../../public/Pass me my happy pills.gif");
-  background-color: #efd4b4;
   background-size: cover;
   background-position: fixed;
   height: 150vh;

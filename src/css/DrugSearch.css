@@ -1,0 +1,15 @@
+.drug-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1EDEB;
+    height: 100vh;
+}
+
+.search-bar {
+    width: 75vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

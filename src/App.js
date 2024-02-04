@@ -2,12 +2,14 @@ import './css/App.css'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Background from './Background.js'
 import Jeonghan from './components/Jeonghan.js'
+import DrugSearch from './components/DrugSearch.js'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Background />} />
+        <Route path="/home" element={<Background />} />
         <Route path="/jeonghan" element={<Jeonghan />} />
+        <Route path="/drugsearch" element={<DrugSearch />} />
       </Routes>
     </BrowserRouter>
   );

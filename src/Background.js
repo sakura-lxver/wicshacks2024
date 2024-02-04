@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
 import './css/App.css'
 function Background() {
     // Function to scroll down
@@ -12,7 +11,6 @@ function Background() {
   
     return (
       <>
-      <Navbar/>
         <div className="app-background">
           <div className="background-content">
             <h1>Jeonghan's wife</h1>
