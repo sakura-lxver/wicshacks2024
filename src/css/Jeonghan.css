@@ -15,3 +15,17 @@
 .background-content {
     color: white;
   }
+
+  .Soobin {
+    text-align: center;
+  }
+  .Soobin-background {
+    background-image: url("../soobin.jpg");
+    background-size:contain;
+    background-position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

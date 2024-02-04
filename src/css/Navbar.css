@@ -2,6 +2,11 @@
     height: 100px;
 }
 
+.logo-text {
+    font-weight: bolder;
+}
+
 .navbar-text {
+    font-weight: bold;
     font-size: large;
 }

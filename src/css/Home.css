@@ -10,20 +10,21 @@
   }
 
   .card-style {
-    display: flex;
-    flex-wrap: nowrap;
+    width: '18rem';
+    margin-right: 30px;
+    background-color: #bde3ff;
   }
 
   .fixed-image {
     position: absolute;
-    top: 60px; /* Adjust the top position as needed */
-    left: 10px; /* Adjust the left position as needed */
+    top: 200px; /* Adjust the top position as needed */
+    left: -100px; /* Adjust the left position as needed */
     z-index: 0; /* Set a high z-index to ensure it's above other elements */
   }
 
   .fixed-image-speech {
     position: absolute;
-    top: 60px; /* Adjust the top position as needed */
+    top: 170px; /* Adjust the top position as needed */
     left: 300px; /* Adjust the left position as needed */
     z-index: 0; /* Set a high z-index to ensure it's above other elements */
   }
@@ -44,8 +45,8 @@
 
 .speech-button {
   position: absolute;
-  bottom: 40px; /* Adjust the distance from the bottom */
-  left: 53%; /* Center the button horizontally */
+  bottom: 35%; /* Adjust the distance from the bottom */
+  left: 55%; /* Center the button horizontally */
   transform: translateX(-50%); /* Center the button horizontally */
   padding: 1px 6px; /* Adjust padding as needed */
   font-size: 14px; /* Adjust font size as needed */
@@ -57,7 +58,7 @@
 
 .fixed-image-pills {
   position: absolute;
-  top: 60px; /* Adjust the top position as needed */
+  top: 130px; /* Adjust the top position as needed */
   right: 0px; /* Adjust the left position as needed */
   z-index: 0; /* Set a high z-index to ensure it's above other elements */
 }

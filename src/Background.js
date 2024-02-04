@@ -18,19 +18,13 @@ function Background() {
       <>
         <div className="home-background">
           <div>
-            <h1>Jeonghan's wife</h1>
-            <div className="background-content">
-                <h3 className="background-content">Larissa Franco is the wife of Yoon Jeonghan</h3>
-            </div>
+            <h1>A Prescription to Saving!</h1>
+            <h3>One prescription at a time!</h3>
            
             <div className="scroll-down-btn-container">
 
             </div>
             <br /> 
-            <div className="bubble">
-              <p>This is a circular bubble with text</p>
-            </div>
-           
             <div className="fixed-image">
                 <img src={cutiepills} alt="Image" style={{ width: '35vw', height: '45vh' }} />
             </div>
@@ -53,7 +47,7 @@ function Background() {
             
             <div className="scroll-down-btn-container"></div>
             <CardGroup className='rounded'>
-              <Card style={{ width:'18rem', marginRight: '30px', backgroundColor: '#bde3ff'}}>
+              <Card className="shadow card-style">
                 <Card.Body>
                   <Card.Title style={{fontWeight: "bold"}}>91%</Card.Title>
                   <Card.Text>
@@ -61,7 +55,7 @@ function Background() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width:'18rem', marginRight: '30px', backgroundColor: '#bde3ff'}}>
+              <Card className="shadow card-style">
                 <Card.Body>
                   <Card.Title style={{fontWeight: "bold"}}>80-85%</Card.Title>
                   <Card.Text>
@@ -69,7 +63,7 @@ function Background() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width:'18rem', marginRight: '30px', backgroundColor: '#bde3ff'}}>
+              <Card className="shadow card-style" >
                 <Card.Body>
                   <Card.Title style={{fontWeight: "bold"}}>100%</Card.Title>
                   <Card.Text>

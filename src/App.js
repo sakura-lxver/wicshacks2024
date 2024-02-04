@@ -2,6 +2,7 @@ import './css/App.css'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Background from './Background.js'
 import Jeonghan from './components/Jeonghan.js'
+import Soobin from './components/Soobin.js'
 import DrugSearch from './components/DrugSearch.js'
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<Background />} />
         <Route path="/jeonghan" element={<Jeonghan />} />
         <Route path="/drugsearch" element={<DrugSearch />} />
+        <Route path="/soobin" element={<Soobin/>}/>
       </Routes>
     </BrowserRouter>
   );

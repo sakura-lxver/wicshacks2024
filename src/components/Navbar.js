@@ -1,39 +1,35 @@
 import React from 'react';
+import '../css/Navbar.css'
 // import {Nav} from 'react-bootstrap';
 function Navbar(){
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">PharmAssist</a>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+            <a className="navbar-brand logo-text" href="/">PharmAssist</a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="/">
+                        <a className="nav-link navbar-text" href="/">
                             About 
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="drugsearch">
+                        <a className="nav-link navbar-text" href="drugsearch">
                             Drug Search
                          </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item navbar-text">
                         <a className="link-extra" href="jeonghan" style={{color: 'white'}}>
                             Jeonghan
+                         </a>
+                    </li>
+                    <li className="nav-item navbar-text">
+                        <a className="link-extra" href="soobin" style={{color: 'white'}}>
+                            Soobin
                          </a>
                     </li>
                 </ul>
             </div>
         </nav>
-        // <Navbar bg="dark" expand="lg">
-        //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        //     <Navbar.Collapse id="basic-navbar-nav">
-        //         <Nav className="mr-auto">
-        //             <Nav.Link href="/" id="nav-link">
-        //                 LINK 1
-        //             </Nav.Link>
-        //         </Nav>
-        //     </Navbar.Collapse>
-        // </Navbar>
     );
 }
 
