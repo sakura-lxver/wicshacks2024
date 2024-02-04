@@ -3,17 +3,17 @@ import React from 'react';
 function Navbar(){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">PharmAssist</a>
+            <a className="navbar-brand" href="/">PharmAssist</a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">
-                            Home 
+                        <a className="nav-link" href="/">
+                            About 
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            Features
+                        <a className="nav-link" href="drugsearch">
+                            Drug Search
                          </a>
                     </li>
                     <li className="nav-item">

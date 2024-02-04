@@ -1,0 +1,15 @@
+.home-background {
+    background-color: #F1EDEB;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-style {
+    display: flex;
+    flex-wrap: nowrap;
+  }
