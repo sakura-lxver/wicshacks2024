@@ -37,7 +37,7 @@ function Background() {
                     <p>Click here to livechat with me!</p>
                 </div>
                 <button class="speech-button">
-                    <a href="/jeonghan">Click me!</a>
+                    <a href="/drugsearch">Click me!</a>
                 </button>
             </div>
 

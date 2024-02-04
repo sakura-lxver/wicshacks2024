@@ -1,0 +1,70 @@
+brand_name,branded_drug_price,generic_name,generic_drug_price,percentage_difference
+Abilify,99.99,Aripiprazole,49.99,50
+Advair Diskus,119.99,Fluticasone/Salmeterol,39.99,67
+Atripla,149.99,Efavirenz/Emtricitab/Tenofovir,59.99,60
+Avastin,199.99,Bevacizumab,79.99,60
+Crestor,89.99,Rosuvastatin Calcium,29.99,67
+Enbrel,179.99,Etanercept,69.99,61
+Humira,249.99,Adalimumab,99.99,60
+Lantus,119.99,Insulin Glargine,49.99,58
+Lyrica,99.49,Pregabalin,39.99,60
+Nexium,79.99,Esomeprazole Magnesium,29.99,63
+Plavix,129.99,Clopidogrel Bisulfate,49.99,62
+Seroquel,109.99,Quetiapine Fumarate,39.99,64
+Singulair,89.99,Montelukast Sodium,29.99,67
+Spiriva,139.99,Tiotropium Bromide,59.99,57
+Truvada,199.99,Emtricitabine/Tenofovir,79.99,60
+Xarelto,149.99,Rivaroxaban,59.99,60
+Zetia,109.99,Ezetimibe,39.99,64
+Zocor,119.99,Simvastatin,49.99,58
+Zoloft,79.99,Sertraline,29.99,63
+Zyrtec,49.99,Cetirizine,19.99,60
+Tylenol,9.99,Acetaminophen,1.39,86
+Motrin,6.74,Ibuprofen,0.99,85
+Zyvox,179.99,Linezolid,69.99,61
+Januvia,119.99,Sitagliptin Phosphate,49.99,58
+Lisinopril,14.99,Lisinopril,4.99,67
+Ambien,89.99,Zolpidem Tartrate,29.99,67
+Prozac,79.99,Fluoxetine,24.99,69
+Levaquin,149.99,Levofloxacin,59.99,60
+Cipro,99.99,Ciprofloxacin,39.99,60
+Wellbutrin,119.99,Bupropion HCl,49.99,58
+Paxil,79.99,Paroxetine HCl,29.99,63
+Zocor,119.99,Simvastatin,49.99,58
+Viagra,119.99,Sildenafil Citrate,39.99,67
+Cialis,149.99,Tadalafil,59.99,60
+Prilosec,99.99,Omeprazole,39.99,60
+Plavix,129.99,Clopidogrel Bisulfate,49.99,62
+Celebrex,89.99,Celecoxib,29.99,67
+Effexor,119.99,Venlafaxine HCl,44.99,63
+Zyprexa,199.99,Olanzapine,79.99,60
+Cymbalta,129.99,Duloxetine HCl,49.99,62
+Advil,4.99,Ibuprofen,1.99,60
+Proventil,69.99,Albuterol,24.99,64
+Vicodin,149.99,Acetaminophen/Hydrocodone,59.99,60
+Ativan,79.99,Lorazepam,29.99,63
+Neurontin,99.99,Gabapentin,39.99,60
+Singulair,89.99,Montelukast Sodium,29.99,67
+Fosamax,119.99,Alendronate Sodium,49.99,58
+Ambien,89.99,Zolpidem Tartrate,29.99,67
+Prozac,79.99,Fluoxetine,24.99,69
+Levaquin,149.99,Levofloxacin,59.99,60
+Cipro,99.99,Ciprofloxacin,39.99,60
+Wellbutrin,119.99,Bupropion HCl,49.99,58
+Paxil,79.99,Paroxetine HCl,29.99,63
+Zocor,119.99,Simvastatin,49.99,58
+Viagra,119.99,Sildenafil Citrate,39.99,67
+Cialis,149.99,Tadalafil,59.99,60
+Prilosec,99.99,Omeprazole,39.99,60
+Plavix,129.99,Clopidogrel Bisulfate,49.99,62
+Celebrex,89.99,Celecoxib,29.99,67
+Effexor,119.99,Venlafaxine HCl,44.99,63
+Zyprexa,199.99,Olanzapine,79.99,60
+Cymbalta,129.99,Duloxetine HCl,49.99,62
+Advil,4.99,Ibuprofen,1.99,60
+Proventil,69.99,Albuterol,24.99,64
+Vicodin,149.99,Acetaminophen/Hydrocodone,59.99,60
+Ativan,79.99,Lorazepam,29.99,63
+Neurontin,99.99,Gabapentin,39.99,60
+Singulair,89.99,Montelukast Sodium,29.99,67
+Fosamax,119.99,Alendronate Sodium,49.99,58
