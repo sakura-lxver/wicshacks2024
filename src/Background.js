@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import './css/Home.css'
 import { CardGroup } from "react-bootstrap";
 import cutiepills from './Pass me my happy pills.gif';
+import speech from './speech_bubble.png';
+import poppinpills from './poppin_pills (2).png';
 function Background() {
     // Function to scroll down
     const scrollDown = () => {
@@ -28,9 +30,27 @@ function Background() {
             <div className="bubble">
               <p>This is a circular bubble with text</p>
             </div>
+           
             <div className="fixed-image">
-                <img src={cutiepills} alt="Image" style={{ width: '30vw', height: '40vh' }} />
+                <img src={cutiepills} alt="Image" style={{ width: '35vw', height: '45vh' }} />
             </div>
+            <div className="fixed-image-pills">
+                <img src={poppinpills} alt="Image" style={{ width: '30vw', height: '37vh' }} />
+            </div>
+            <div className="fixed-image-speech">
+                <img src={speech} alt="Image" style={{ width: '17vw', height: '25vh' }} />
+                <div className="text-overlay">
+                    Click here to livechat with me!
+                </div>
+                <button class="speech-button">
+                    <a href="/jeonghan">Click me!</a>
+                </button>
+            </div>
+
+            
+            
+
+            
             <div className="scroll-down-btn-container"></div>
             <CardGroup className='rounded'>
               <Card style={{ width:'18rem', marginRight: '30px', backgroundColor: '#bde3ff'}}>

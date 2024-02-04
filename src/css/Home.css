@@ -17,9 +17,47 @@
   .fixed-image {
     position: absolute;
     top: 60px; /* Adjust the top position as needed */
-    left: 50px; /* Adjust the left position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    z-index: 0; /* Set a high z-index to ensure it's above other elements */
+  }
+
+  .fixed-image-speech {
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 300px; /* Adjust the left position as needed */
     z-index: 0; /* Set a high z-index to ensure it's above other elements */
   }
   .background-content{
     z-index: 1; 
   }
+
+  .text-overlay {
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    font-size: 15px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    font-family: "Times New Roman", Times, serif;
+}
+
+.speech-button {
+  position: absolute;
+  bottom: 40px; /* Adjust the distance from the bottom */
+  left: 53%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+  padding: 1px 6px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  background-color: lightblue; /* Button background color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.fixed-image-pills {
+  position: absolute;
+  top: 60px; /* Adjust the top position as needed */
+  right: 0px; /* Adjust the left position as needed */
+  z-index: 0; /* Set a high z-index to ensure it's above other elements */
+}
